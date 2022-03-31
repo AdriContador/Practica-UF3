@@ -20,33 +20,6 @@ def validate(msg, ini, fin):
        num = int(input(msg))
    return num
 
-#Aquesta funció permet que es canvii el número del mes pel seu nom, que és més còmode per l'usuari.
-def month(month_num):
-   if month_num == 1:
-       return msg.JANUARY
-   elif month_num == 2:
-       return msg.FEBRUARY
-   elif month_num == 3:
-       return msg.MARCH
-   elif month_num == 4:
-       return msg.APRIL
-   elif month_num == 5:
-       return msg.MAY
-   elif month_num == 6:
-       return msg.JUNE
-   elif month_num == 7:
-       return msg.JULY
-   elif month_num == 8:
-       return msg.AUGUST
-   elif month_num == 9:
-       return msg.SEPTEMBER
-   elif month_num == 10:
-       return msg.OCTOBER
-   elif month_num == 11:
-       return msg.NOVEMBER
-   elif month_num == 12:
-       return msg.DECEMBER
-
 #Amb la següent funció s'omple el diccionari.
 def dictionary():
    sentinella = dict()
